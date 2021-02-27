@@ -1,30 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 body {
+  position: relative;
+  min-height: 100vh;
   text-align: center;
   font-family: 'Roboto Mono', Arial;
   background-color: #2e3440;
   color: #FFFFFF;
 }
 
-#levela-dev-logo {
+main {
+  padding-bottom: 5rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;            /* Footer height */
+}
+
+.levela-dev-logo {
   margin-top: 25vh;
   width: 200px;
   height: auto;
 }
 
-#levela-dev-text {
+.levela-dev-text {
   margin-top: 6vh;
   margin-bottom: 5vh;
   width: 300px;
   height: auto;
 }
 
+.contact {
+  margin-top: 5vh;
+}
+
+.copyright {
+  color: white;
+  font-size: 1.5rem;
+}
+
+a {
+  color: white;
+}
+
+i {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  transition: .5s;
+}
+
+i:hover {
+  color: #88c0d0;
+}
+
 @media only screen and (max-width: 768px) {
-  #levela-dev-logo {
+  .levela-dev-logo {
     width: 150px;
   }
-  #levela-dev-text {
+  .levela-dev-text {
     width: 225px;
   }
 }
@@ -80,7 +117,7 @@ span {
 .typewriter-mobile p {
   margin: 0 auto 0.8rem auto;
   border-right: 10px solid #88c0d0;
-  font-size: 1.2rem;
+  font-size: 1rem;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -99,7 +136,7 @@ span {
 }
 
 .typewriter-mobile p:nth-child(1) {
-  width: 280px;
+  width: 230px;
   -webkit-animation: type 1s steps(40, end);
   animation: type 1s steps(40, end), blink 1s step-end infinite;
   -webkit-animation-fill-mode: forwards;
@@ -107,7 +144,7 @@ span {
 }
 
 .typewriter-mobile p:nth-child(2) {
-  width: 400px;
+  width: 360px;
   opacity: 0;
   -webkit-animation: type2 1.5s steps(40, end);
   animation: type2 1.5s steps(40, end), blink 1s step-end infinite;
@@ -118,7 +155,7 @@ span {
 }
 
 .typewriter-mobile p:nth-child(3) {
-  width: 390px;
+  width: 320px;
   opacity: 0;
   -webkit-animation: type3 1.4s steps(40, end), blink 1s step-end infinite;
   animation: type3 1.4s steps(40, end), blink 1s step-end infinite;
