@@ -9,10 +9,6 @@ body {
   color: #FFFFFF;
 }
 
-main {
-  padding-bottom: 5rem;
-}
-
 footer {
   position: absolute;
   bottom: 0;
@@ -20,13 +16,13 @@ footer {
   height: 5rem;
 }
 
-.levela-dev-logo {
+#levela-dev-logo {
   margin-top: 25vh;
   width: 200px;
   height: auto;
 }
 
-.levela-dev-text {
+#levela-dev-text {
   margin-top: 6vh;
   margin-bottom: 5vh;
   width: 300px;
@@ -57,10 +53,10 @@ i:hover {
 }
 
 @media only screen and (max-width: 768px) {
-  .levela-dev-logo {
+  #levela-dev-logo {
     width: 150px;
   }
-  .levela-dev-text {
+  #levela-dev-text {
     width: 225px;
   }
 }
