@@ -58,6 +58,7 @@ i:hover {
 
 @media only screen and (max-width: 768px) {
   #levela-dev-logo {
+    margin-top: 10vh;
     width: 150px;
   }
   #levela-dev-text {
