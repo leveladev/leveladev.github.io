@@ -64,6 +64,12 @@ i:hover {
   #levela-dev-text {
     width: 225px;
   }
+  footer {
+    height: 10rem;
+  }
+  main {
+    padding-bottom: 10rem;
+  }
 }
 
 span {
