@@ -1,1 +1,1 @@
-# My Personal blog & portfolio website project.
+# Personal blog & portfolio website project.
