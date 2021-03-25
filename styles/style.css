@@ -24,7 +24,7 @@ footer {
   margin-top: 25vh;
   width: 200px;
   height: auto;
-  cursor: grab;
+  cursor: grabbing;
 }
 
 #levela-dev-text {
