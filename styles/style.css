@@ -26,6 +26,7 @@ footer {
   height: auto;
   cursor: grab;
   cursor: -webkit-grab;
+  cursor: -moz-grab;
 }
 
 #levela-dev-text {
